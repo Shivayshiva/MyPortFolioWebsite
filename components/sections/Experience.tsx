@@ -157,7 +157,7 @@ export default function Experience() {
                 className="flex flex-col items-center gap-2 relative"
               >
                 <div className="w-3 h-3 rounded-full border-2 border-[#050A0F] ring-2"
-                  style={{ background: pt.color, boxShadow: `0 0 12px ${pt.color}80`, ringColor: pt.color }}
+                  style={{ background: pt.color, boxShadow: `0 0 12px ${pt.color}80` }}
                 />
                 <div className="text-center">
                   <p className="font-mono text-xs font-bold" style={{ color: pt.color }}>{pt.year}</p>
